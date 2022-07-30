@@ -2,10 +2,6 @@ require "./lib/hash_traverse"
 
 RSpec.describe HashTraverse do
   describe "sum of numbers" do
-    # Given a hash whose keys can point to arrays, hashes, strings,
-    # or integers, and any of the arrays can contain all of the
-    # above as well, write a function that will add up all the numbers
-    # contained in the hash.
     it "does a simple one" do
       hash = {
         red: 5,
